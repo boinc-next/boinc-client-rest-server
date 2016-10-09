@@ -1,0 +1,5 @@
+boinc-rest-shim:
+    image: skybon/boinc-client-rest-shim
+    command: --shimaddr :15678
+    ports:
+        - "15678:15678"
